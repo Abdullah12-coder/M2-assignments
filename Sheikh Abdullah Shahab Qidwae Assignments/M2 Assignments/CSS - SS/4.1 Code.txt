@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet"
+ type="text/css" href="style9.css">
+</head>
+<body>
+<h1>This is ABdullah .....</h1>
+<h2>Hello Everyone.....Good Morning</h2>
+<h3>Hello Everyone....Good AfterNoon</h3>
+<h4>Hello Everyone......GoodNight</h4>
+</body>
+</html>
+============================================================================
+=========================================================================
+h1 {
+   color:rgb(60,179,113)
+   }
+
+h2{
+	color:rgba(255,99,71,0.5)
+   }
+   h3{
+	   color:hsl(120,60%,70%)
+   }
+   h4{
+	   color:hsla(120,100%,25%,0.3)
+   }

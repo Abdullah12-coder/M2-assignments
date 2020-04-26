@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"
+type="text/css" href="style.css">
+</head>
+<body>
+<h1>This is a Uppercase sentence.(Abdullah)</h1>
+<h2>This is very specific lone will be shifting to right side of the page by the indent property.</h2>
+<h3>This is a red colour sentence by hex </h3>
+</body>
+</html>

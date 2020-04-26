@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"
+ type="text/css" href="mystyle1.css">
+ </head>
+ <body>
+ <h1>This is a heading(Abdullah)</h1>
+ <p>This is a Paragragh</p>
+ </body>
+ </html>

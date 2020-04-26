@@ -1,0 +1,89 @@
+<! DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="height=device-height,width=device-width,user-
+scalable=no" />
+
+<meta charset="UTF-8">
+<title>(Abdullah) Video and audio insertion</title>
+</head>
+<body>
+	<form name="FromElements">
+	<h1>Abdullah</h1>
+		<table align="center">
+			<tr>
+				<td><label for="demo">PlaceHolder:</label></td>
+				<td><input id="demo" name="demo" placeholder="Enter no only"></td>
+			</tr>
+			<tr>
+				<td><label for="nameauto">Autofocus:</label></td>
+				<td><input id="nameauto" name="nameauto" type="text" autofocus></td>
+			</tr>
+			<tr>
+				<td><label for="range">Range: </label></td>
+				<td><input id="range" type="range" min="0" max="50" value="10"></td>
+			</tr>
+			<tr>
+				<td><label for="search">Search:</label></td>
+				<td><input id="search" name="search" type="search" placeholder="search.."></td>
+			</tr>
+			<tr>
+				<td><label for="date">Date: </label></td>
+				<td><input type="date" min="2010-08-14" max="2014-08-14" value=""></td>
+			</tr>
+			<tr>
+				<td><label for="date">Week:</label></td>
+				<td><input type="week" value=""></td>
+			<tr>
+			<tr>
+				<td><label for="date">Month: </label></td>
+				<td><input type="month" value=""></td>
+			</tr>
+			<tr>
+				<td><label for="date">Time: </label></td>
+				<td><input type="time" value=""></td>
+			</tr>
+			<tr>
+				<td><label for="number">Number: </label></td>
+				<td><input type="number" step="1" min="-5" max="10" value="0"></td>
+			</tr>
+			<tr>
+				<td><label for="required">Required: </label></td>
+				<td><input type="text" required></td>
+			<tr>
+			<tr>
+				<td><label for="email">Email: </label></td>
+				<td><input type="email" required></td>
+			</tr>
+			<tr>
+				<td><label for="color">Color: </label></td>
+				<td><input type="color" placeholder="#bbbbbb"></td>
+			</tr>
+			<tr>
+				<td><label for="country_name">Country Name</label></td>
+				<td><input type="text" list="country"></td>
+				<td><datalist id="country">
+					<option value="Afghanistan">
+					<option value="Albania">
+					<option value="Algeria">
+					<option value="Bangladesh">
+					<option value="Bhutan">
+					<option value="Denmark">
+					<option value="Los Angles">
+					<option value="Israil">
+					<option value="USA">
+					<option value="UK">
+					</datalist>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><video src="small.ogv" controls width="300" height="250"></video></td>
+			</tr>
+			<tr>
+				<td colspan="2"><audio controls ><source src= "audio.mp3" type="audio/mpeg" /><source src= "1vs0_JuniorGroove.ogg" type="audio/ogg"/></audio></td>
+			</tr>
+		</table>
+	</form>
+</body>

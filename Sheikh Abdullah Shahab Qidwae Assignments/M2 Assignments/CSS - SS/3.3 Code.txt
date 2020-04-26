@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet"
+ type="text/css" href="style2.css">
+</head>
+<body>
+<h1>
+<div>This is a heading with violet colour.(Abdullah)</div>
+</h1>
+<h2>
+<div>This is a heading with blue colour.</div></h2>
+<h3>
+<div>This is a heading with green colour.</div></h3>
+<h4>
+<div>This is a heading with yellow colour.</div></h4>
+<h5>
+<div>This is a heading with orange colour.</div></h5>
+<p>This is a paragraph with red colour.</p>
+</body>
+</html>

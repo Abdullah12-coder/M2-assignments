@@ -1,0 +1,36 @@
+<html>
+<body bgcolor="lightblue">
+<h1>Abdullah Form</h1>
+<form>
+Enter the password<input type="password"name="password"value="kjh"/>
+Enter your surname<input type="text"name="surname" value="Sukuru"/>
+<br>
+<p>Address:
+<textarea rows="5" cols="50"name="description"></p>
+Enter ur address</textarea>
+<p>Select the training programs attended:</p>
+<input type="checkbox" name="cobol"value="on">COBOL
+<input type="checkbox" name="idms"value="on">IDMS
+<input type="checkbox" name="java"value="on">Java
+<p>Select the group ypu belong to :
+<input type="radio"name="subject"value="group1">Group 1
+<input type="radio"name="subject"value="group2">Group 2
+<input type="radio"name="subject"value="group3">Group 3
+<input type="radio"name="subject"value="others">Others
+</p>
+<p>Which training program would you like to attend ?
+<select name="dropdown">
+<option value="JavaScript">JavaScript</option>
+<option value ="HTML">HTML</option>
+<option value="Css">CSS</option>
+</select>
+</p>
+<input type="text"name="file">
+<input type="submit" value="Browse...">
+<br>
+<input type="button" name="exit" value="Exit"/>
+<input type="button" name="save" value="Save"/>
+<input type="reset" name="Reset" value="Reset"/>
+</form>
+</body>
+</html>

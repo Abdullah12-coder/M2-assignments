@@ -1,0 +1,44 @@
+<HTML>
+    <body>
+
+        <div class="container">
+            <form class="form-horizontal" #f1="ngForm" method="get" (ngSubmit)="test()">
+
+                <b>Product ID: </b><input type="text" class="form control col-sm-4" [(ngModel)]="A" name="A" #A1="ngModel" required ><br><br>
+                <div *ngIf="f1.submitted && A1.invalid">
+            <div *ngIf="A1.errors.required">This fiels cannot be empty</div> 
+        </div>
+                <b>Product Name: </b><input type="text" class="form control col-sm-4" [(ngModel)]="B" name="B" #B1="ngModel" required ><br><br>
+                  <div *ngIf="f1.submitted && B1.invalid">
+            <div *ngIf="B1.errors.required">This fiels cannot be empty</div> 
+        </div>
+                <b>Product Cost: </b><input type="text" class="form control col-sm-4" [(ngModel)]="C" name="C" #C1="ngModel" required ><br><br>
+                  <div *ngIf="f1.submitted && C1.invalid">
+            <div *ngIf="C1.errors.required">This fiels cannot be empty</div> 
+        </div>
+                <b>Product Online: </b><input type="radio" name="type" value="Yes">Yes
+                                       <input type="radio" name="type" value="No">No
+                <br>
+                <p> This field should be filled.</p><br>
+                <b>Product Category: </b><select name="Products" >
+                                         <option value="Grocery">Grocery</option>
+                                         <option value="Mobile">Mobile</option>
+                                         <option value="Electronics">Electronics</option>
+                                         <option value="Clothes">Clothes</option>
+                                         </select><br><br>
+                <b>Available in Store: </b><input type="checkbox"  name="type" value="Big Bazaar">Big Bazaar
+                                           <input type="checkbox"  name="type" value="Mart">Mart
+                                           <input type="checkbox"  name="type" value="Reliance">Reliance
+                                           <input type="checkbox"  name="type" value="Mega Store">Mega Store
+
+                 <br><p> This field should be selected atleast once.</p><br>
+        <input type="submit" class="btn btn-success col-sm-2" name="Add Product">
+            </form>
+        </div>
+
+        <p>Product ID is: {{A}} </p><br>
+        <p>Product Name is: {{B}} </p><br>
+        <p>Product Cost is: {{C}} </p>
+        <app-child></app-child>
+    </body>
+</HTML>

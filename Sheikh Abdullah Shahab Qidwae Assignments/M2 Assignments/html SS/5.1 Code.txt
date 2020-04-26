@@ -1,0 +1,17 @@
+<html>
+<body>
+<h1>Abdullah Art </h1>
+<a href="https://www.google.com/search?q=desert">
+<img src="C:\Users\Abdullah\Desktop\capG Study part\desert.jpg"height="20%"width="40%">
+</a><p>desert</p><br>
+<a href="https://www.google.com/search?q=jelly fish">
+<img src="C:\Users\Abdullah\Desktop\capG Study part\jellyfish.jpg"height="20%"width="40%">
+</a><p>jelly fish</p><br>
+<a href="https://www.google.com/search?q=koala">
+<img src="C:\Users\Abdullah\Desktop\capG Study part\koala.jpg"height="20%"width="40%">
+</a><p>Koala</p><br>
+<a href="https://www.google.com/search?q=penguin">
+<img src="C:\Users\Abdullah\Desktop\capG Study part\penguin.jpg"height="20%"width="40%">
+</a><p>Penguin</p>
+</body>
+</html>

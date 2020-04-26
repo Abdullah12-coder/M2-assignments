@@ -1,0 +1,69 @@
+<! DOCTYPE html>
+<html>
+
+<head>
+	<title>Abdullah Form</title>
+	<meta name="viewport" content="height=device-height,width=device-width,user-scalable=no" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Abdullah</h1>
+	<form name="StudentInfoForm" action="/action_page.php">
+	<table border=1 bgcolor="lightblue" width=50%>
+	<tr>
+		<td><label for="name">Name: <span style="color:red">*</span></label></td>
+		<td><input type="text" pattern="[A-Za-z]" maxlength="15" placeholder="Enter name"></td>
+	</tr>
+	<tr>
+		<td><label for="pass">Password: <span style="color:red">*</span></label></td>
+		<td><input type="password" maxlength="15" placeholder="Enter password"></td>
+	</tr>
+	<tr>
+		<td><label for="number">Phone Number: <span style="color:red">*</span></label></td>
+		<td><input type="text" pattern="[0-9]10" placeholder="Enter phone no"></td>
+	</tr>
+	<tr>
+		<td><label for="gender">Gender: <span style="color:red">*</span></label></td>
+		<td><input type="radio">Male<br><input type="radio">Female</td>
+	</tr>
+	<tr>
+		<td><label for="date">Date of Birth: <span style="color:red">*</span></label></td>
+		<td><input type="date" min="2020-04-20"></td>
+	</tr>
+	<tr>
+		<td><label for="email">Email: <span style="color:red">*</span></label></td>
+		<td><input type="email" placeholder="Enter Email ID"></td>
+	</tr>
+	<tr>
+		<td><label for="qualification">Highest Qualification: <span style="color:red">*</span></label></td>
+		<td><input type="text" list="qual" placeholder="choose your degree.."></td>
+		<td><datalist id="qual">
+			<option value="B-Tech">
+			<option value="MSc">
+			<option value="Bsc">
+			<option value="M-Tech">
+			<option value="BA">
+		</td>
+	</tr>
+	<tr>
+		<td><label for="course">Course Interested in: <span style="color:red">*</span></label></td>
+		<td><input type="checkbox">Java<input type="checkbox">HTML <input type="checkbox">CSS <input type="checkbox">Angular <input type="checkbox">Spring</td>
+	</tr>
+	<tr>
+		<td><label for="comments">Comments regarding degree: <span style="color:red">*</span></label></td>
+		<td><textarea placeholder="comments if any..." rows="4" cols="40"></textarea></td>
+	</tr>
+	<tr>
+		<td><label for="upload">Upload Degree: <span style="color:red">*</span></label></td>
+		<td><input type="file" id="myfile" name="myfile"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><input type="submit" value="submit"><input type="button" value="clear"></td>
+	</tr>
+	</table>
+	</form>
+	<p>Marked Fields(*) are important to fill</p>
+</body>
+</html>

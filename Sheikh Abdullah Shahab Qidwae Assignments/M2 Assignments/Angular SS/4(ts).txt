@@ -1,0 +1,46 @@
+ // constructor(private httpClient:HttpClient)
+
+//	{
+
+//	 }
+//	
+ngOnInit()  {
+//	
+ this.httpClient.get("assets/data/booklist.json").
+
+//	 subscribe(data =>
+//	 {
+//	
+  console.log(data);
+//	 
+ this.bookList=data;
+//	},
+
+//	(error) =>
+//	{
+//	
+ console.error("error has occured");
+//
+	 this.errorMsg =error.message;
+//	
+ alert(this.errorMsg);
+//	}
+//
+	);
+//	
+}
+	
+//idfind(index){
+	
+// if(this.id== this.bookList.id){
+	/
+/ console.log(index,1);
+	// }
+//}
+
+
+//	bookList:any=[];
+
+//	book:Book;
+//	
+errorMsg:string;

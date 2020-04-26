@@ -1,0 +1,24 @@
+<html>
+<body>
+<h1>Abdullah Table</h1>
+<table border="1">
+<tr>
+<td>The following is a demonstration of various list styles<br><br><center>An ordered list i.e. using OL and LI</center>
+<ol start="9">
+<li>Seepz</li>
+<li>TTC</li>
+<li>MIDC</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td><center>Unordered list i.e. using UL and LI</center>
+<ul style="list-style-type:square">
+<li>Seepz</li>
+<li>TTC</li>
+<li>MIDC</li>
+</ul>
+</td>
+</table>
+</body>
+</html>

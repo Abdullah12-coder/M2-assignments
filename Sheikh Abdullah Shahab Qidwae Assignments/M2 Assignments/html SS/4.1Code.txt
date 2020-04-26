@@ -1,0 +1,34 @@
+ml>
+<body>
+<h1>Abdullah </h1>
+<a href="about.html">About</a>
+<h1><center>Welcome to Big Company</center></h1>
+<a href="product.html">Product</a>
+<hr width="50%">
+</hr>
+<pre>
+<a href="mailto:Ind.in@capgemini.com">Contact</a>    This is  avery simple layout that would have nearly been
+             impossible to do without tables.</pre> 
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+<html>
+<body>
+<p>The Big company was founded in 1956</p>
+</body>
+</html>
+-========================================================================
+
+<html>
+<body>
+<p>The following are the products offered.</p>
+<ul style="list-style-type:solidcircle">
+<li>Personal Health</li>
+<li>Beverages</li>
+<li>Garments</li>
+<li>Books</li>
+</ul>
+</body>
+</html>

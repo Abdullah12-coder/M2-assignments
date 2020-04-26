@@ -1,0 +1,66 @@
+<HTML>
+ <body>
+    <div class="jumbotron text-center" style="background-color:lightgreen">
+     <h1> Employees Data ...</h1>
+         </div>
+
+     <div class="container" style="background-color:lightcoral">
+         <h2> Add the employee Information </h2>
+         
+         <form class="form-horizontal" #f1="ngForm" (ngSubmit)="addDetails()">
+
+             ID: <input type="text" class="form-control col-sm-4" [(ngModel)]="employ.id" name="id"> 
+             Name: <input type="text" class="form-control col-sm-4" [(ngModel)]="employ.name" name="name"> 
+             Salary: <input type="text" class="form-control col-sm-4" [(ngModel)]="employ.sal" name="sal">  
+             Department: <input type="text" class="form-control col-sm-4" [(ngModel)]="employ.dept" name="dept"><br>
+
+             <input type="button" class="btn btn-success col-sm-2" value="Add Employee" (click)="addDetails()">
+             <br>
+
+             </form>
+         </div>
+         
+  
+     <br>
+     <table border="1" style="text-align:center" align="center"> 
+         <thead>
+             <tr style="background-color:yellow">
+                 <th>ID</th>
+                 <th>Name</th>
+                 <th>Salary</th>
+                 <th>Department</th>
+                 <th>action</th>
+                 <th>action</th>
+             </tr>
+             </thead>
+         <tbody>
+         <tr *ngFor ="let Employee of employ; let i=index;">
+             <td>{{Employee.id}}</td>
+             <td>{{Employee.name}}</td>
+             <td>{{Employee.sal}}</td>
+             <td>{{Employee.dept}}</td>
+             <td> <button (click) ="onUpdate(Employee)">Update</button></td>
+             <td> <button (click) ="onDelete(Employee)">Delete</button></td>
+         </tr>
+          </tbody>
+     </table>
+     
+     <div class="container" style="background-color:lightcoral">
+         <h2> Update the Employee Information...</h2>
+
+    <form #UpdateForm="ngForm" (ngSubmit)="UpdateRecord()">
+
+        ID: <input type="text" class="form-control col-sm-4" [(ngModel)]="id" name="id"> 
+        Name: <input type="text" class="form-control col-sm-4" [(ngModel)]="name" name="name">
+        Salary: <input type="text" class="form-control col-sm-4" [(ngModel)]="sal" name="sal">
+        Department: <input type="text" class="form-control col-sm-4" [(ngModel)]="dept" name="dept">
+
+        <input type="button" class="btn btn-success col-sm-2" value="UPDATE IT" (click)="UpdateRecord()">
+             <br>
+    </form>
+
+     </div>
+     
+     
+     </body>
+</HTML>

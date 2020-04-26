@@ -1,0 +1,12 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet"
+  type="text/css" href="style1.css">
+</head>
+<body>
+<p>This is universal selector with red colour.(Abdullah)</p>
+</body>
+</html>
+=========================================================================
+

@@ -1,0 +1,22 @@
+<html>
+    <body>
+
+
+        <div class="container">
+            
+            <h2 style="background-color:black;color:white"> Sheikh Abdullah from json file...</h2>
+            
+             
+            
+
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-warning col-sm-4" *ngFor="let book1 of bookList,let i=index"> {{book1.id}}: {{book1.title}}:{{book1.year}}:{{book1.author}}</li>
+
+            </ul>
+            
+             
+         </div>
+         
+        
+    </body>
+</html>

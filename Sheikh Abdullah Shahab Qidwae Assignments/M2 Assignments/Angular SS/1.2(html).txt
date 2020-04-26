@@ -1,0 +1,49 @@
+<html>
+    <body>
+  
+  
+<h3> Abdullah 1.2 Angular Lab</h3>
+<form name="form"  (ngSubmit)="onSubmit()">
+
+  
+  <div class="form-group">
+      
+  <label>ID </label>
+       
+ <input type="number" class="from-control" name="Id" [(ngModel)]="id"/>
+   
+ </div>
+    <div class="form-group">
+    
+    <label>Name </label>
+        
+<input type="text" class="from-control" name="name" [(ngModel)]="name"/>
+    
+</div>
+  <!--  <div class="form-group">
+      
+  <label> Salary </label>
+        
+<input type="number" class="from-control" name="Salary" [(ngModel)]="salary"/>
+    </div>-->
+    
+<div class="form-group">
+      
+  <label> Department</label>
+       
+ <input type="text" class="from-control" name="Department" [(ngModel)]="dept"/>
+   
+ </div>
+    <div class="form-group">
+       
+ <button class="btn btn-primary">Add Employee</button>
+    </div>
+   
+ <p> {{id}} {{name}} {{ dept }} </p>
+  
+</form>
+        
+        
+</body>
+ 
+   </html>

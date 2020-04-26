@@ -1,0 +1,92 @@
+//id:string;
+  //name:string;
+  //sal:string;
+ // dept:string;
+  
+  //now:string="Use of Pipes";
+  //data:number=5000;
+  //stringDataForPipe:string="Angular is tough to understand";
+  
+ 
+// employ : Employee[] = [
+ //{id:'101',name:'Squirtle',sal:'35000',dept:'HR'},
+ 
+//{id:'102',name:'Bulbasaur',sal:'40000',dept:'Engineer'},
+ 
+//{id:'103',name:'Charmender',sal:'25000',dept:'Training'}
+ // ]
+
+
+ 
+ 
+//addDetails()
+
+ //{
+ 
+ // this.employ.push({
+   //id : this.id,
+   //name : this.name,
+   //sal : this.sal,
+  //dept : this.dept
+  // });
+   
+ 
+//}
+
+ 
+// displayDetails()
+ {
+  
+//  alert("Inside display Details()...");
+
+//	this.myservice.insert();
+
+//	this.myservice.update();
+//
+	this.myservice.delete();
+
+//	this.myservice.display();
+ //  }
+
+
+//test()
+//{
+
+//}
+
+
+//onDelete(index)
+
+//{
+// this.employ.splice(index,1);
+//}
+
+//onUpdate(emp:Employee)
+//
+{
+ //this.id=emp.id;
+
+// this.name=emp.name;
+
+//this.sal=emp.sal;
+
+// this.dept=emp.dept;
+// }
+
+// for (let x in this.employ)
+
+{
+ //  if(this.employ[x].id == this.id) UpdateRecord(){
+
+//    
+
+
+this.employ[x].name=this.name;
+//	
+
+this.employ[x].sal=this.sal;
+//	
+
+this.employ[x].dept=this.dept;
+ //  }
+  //}

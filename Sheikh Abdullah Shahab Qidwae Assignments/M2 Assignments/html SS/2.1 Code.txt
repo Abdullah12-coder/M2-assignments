@@ -1,0 +1,34 @@
+<html>
+<body>
+<p><center>Fun with Food (Abdullah)</center></p>
+<table align="center"border="1">
+<thead style="background-color:yellow">
+<tr>
+<th>Fruit</th>
+<th>Color</th>
+<th>Cost per pound</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grapes</td>
+<td>Purple</td>
+<td>1.25</td>
+</tr>
+<tr>
+<td>Cherries</td>
+<td>Red</td>
+<td>154.79</td>
+</tr>
+<tr>
+<td>Kiwi</td>
+<td>Brown</td>
+<td>10.00</td>
+</tr>
+<tr>
+<td colspan="3"><center><b>This is a footer area</b><center></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

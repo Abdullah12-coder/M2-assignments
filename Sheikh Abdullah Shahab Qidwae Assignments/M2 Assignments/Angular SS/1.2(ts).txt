@@ -1,0 +1,19 @@
+onSubmit()
+     { 
+	
+ // alert( this.id+" "+ this.name+" "+this.dept);
+	
+//this.userFormList.push(new user(this.userForm.id, this.userForm.name,this.userForm.department))
+
+	
+   this.employeeService.isValidUser().subscribe (
+	 
+  data => {
+
+	   //For string data
+	
+  //this.dataString = data;
+	 
+ // alert(this.dataString);
+	
+  // console.log(this.dataString);
